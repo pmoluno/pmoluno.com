@@ -1,0 +1,12 @@
+h1{
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+h1 > span{
+    color: #f47e05;
+}
+p{
+    color: #ffffffa8;
+    padding-bottom: 25px;
+}
