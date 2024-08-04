@@ -1,35 +1,47 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import ReactFullpage from "@fullpage/react-fullpage";
+import Navbar from "./components/specific/Navbar";
+import Hero from "./components/specific/Hero";
+import About from "./components/specific/About";
+import Portfolio from "./components/specific/Portfolio";
+import Articles from "./components/specific/Articles";
+import Footer from "./components/specific/Footer";
+import Brands from "./components/common/Brands";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="App">
+      <Navbar />
+      <ReactFullpage
+        navigationTooltips={["Intro", "About Me", "Projects", "Articles"]}
+        navigation={true}
+        slidesNavigation={true}
+        slidesNavPosition="bottom"
+        controlArrows={true}
+        licenseKey="xxxxxxxxxxxxxxxxxxxxxxxxx"
+        render={() => (
+          <ReactFullpage.Wrapper>
+            <div className="section hero-section">
+              <Hero />
+              <Brands />
+            </div>
+            <div className="section about-section">
+              <About />
+            </div>
+            <div className="section portfolio-section">
+              <Portfolio />
+            </div>
+            <div className="section articles-section">
+              <Articles />
+            </div>
+          </ReactFullpage.Wrapper>
+        )}
+      />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
