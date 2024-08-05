@@ -16,6 +16,17 @@ body{
 .btn-style-1:hover, .btn-style-1:focus, .btn-style-1:active{
     background-color: #764005;
 }
+.btn-style-2{
+    background-color: #f47e0500;
+    color: #f47e05;
+    border: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+}
+.btn-style-2:hover, .btn-style-2:focus, .btn-style-2:active{
+    color: #f47e05;
+}
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span{
     background: white;
