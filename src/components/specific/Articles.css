@@ -1,0 +1,20 @@
+h2, h3{
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: #f47e05;
+}
+p{
+    color: #ffffffa8;
+    padding-bottom: 25px;
+}
+
+.read-more{
+    color: #ffffff;
+}
+.read-more:hover{
+    color: #f47e05;
+}
