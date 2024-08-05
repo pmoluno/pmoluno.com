@@ -10,7 +10,7 @@ const Navigation = () => {
     <Navbar expand="lg" fixed="top" className="">
       <Container>
         <Navbar.Brand style={{fontWeight: '700'}}>
-          Pmoluno <span style={logoStyle}>.com</span>
+          Pmoluno<span style={logoStyle}>.com</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarSupportedContent">
           <span
