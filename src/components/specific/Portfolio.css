@@ -1,0 +1,38 @@
+.portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+li{
+    color: #ffffff91;
+    padding-bottom: 15px;
+    list-style: circle;
+}
+li>strong{
+    font-weight: 700;
+    color: #ffffff;
+}
+li>span{
+    font-weight: 700;
+    color: #f47e05;
+}
+.snipet{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.no-arrows .carousel-control-prev,
+.no-arrows .carousel-control-next {
+  display: none;
+}
+.npm-snipet>h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+.npm-snipet>p{
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.npm-snipet>p>strong{
+    color: #f47e05;
+}
