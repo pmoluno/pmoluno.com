@@ -5,6 +5,7 @@ import Brands from "../common/Brands";
 
 const Hero = () => {
   return (
+    <>
     <div className="hero container" id="hero">
       <h1>
         <span> Hi I'm P Moluno, </span>
@@ -16,6 +17,8 @@ const Hero = () => {
       </p>
       <button className="btn btn-secondary btn-style-1">Let's Talk</button>
     </div>
+    {/* <Brands/> */}
+    </>
   );
 };
 
