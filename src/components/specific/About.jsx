@@ -2,7 +2,8 @@ import "./About.css";
 import Technologies from "../common/Technologies";
 const About = () => {
   return (
-    <div className="about container">
+    <div className="about">
+      <div className="container">
       <div className="row">
         <div className="col-md-5 pb-5">
           <h2>About Me</h2>
@@ -25,6 +26,7 @@ const About = () => {
           <Technologies />
         </div>
       </div>
+    </div>
     </div>
   );
 };
