@@ -26,7 +26,8 @@ const Articles = () => {
   ];
 
   return (
-    <div className="articles container">
+    <div className="articles">
+      <div className="container">
       <h2>My Articles</h2>
       <p>
         I write about technology and business. I explore how tech innovations
@@ -37,6 +38,7 @@ const Articles = () => {
       <div className="row">
         <ArticleList articles={articles}/>
       </div>
+    </div>
     </div>
   );
 };
