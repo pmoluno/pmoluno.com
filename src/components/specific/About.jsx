@@ -2,7 +2,7 @@ import "./About.css";
 import Technologies from "../common/Technologies";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="container">
       <div className="row">
         <div className="col-md-5 pb-5">
