@@ -36,3 +36,7 @@ li>span{
 .npm-snipet>p>strong{
     color: #f47e05;
 }
+.slide-img{
+    border-radius:10px;
+    margin-bottom: 20px;
+}

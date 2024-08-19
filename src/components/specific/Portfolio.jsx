@@ -1,10 +1,13 @@
 import { Carousel } from "react-bootstrap";
 import NpmPackageInfo from '../common/NpmPackageInfo';
 import "./Portfolio.css";
+import imageOne from "../../assets/images/logistics.png"
+import imageTwo from "../../assets/images/strataone.png"
+import imageThree from "../../assets/images/tracker.png"
 
 const Portfolio = () => {
   return (
-    <div className="portfolio container">
+    <div className="portfolio container" id="portfolio">
       <h2>My Projects</h2>
       <p>
         Here are some projects I've completed that demonstrate my web
@@ -15,7 +18,7 @@ const Portfolio = () => {
           <div className="snipet container">
             <div className="row">
               <div className="col-md-6">
-                <img src="" alt="" />
+                <img src={imageOne} alt="" className="slide-img img-fluid" />
               </div>
               <div className="col-md-6">
                 <div className="description">
@@ -39,7 +42,7 @@ const Portfolio = () => {
                       </span>
                     </li>
                   </ul>
-                  <a href="" className="btn btn-style-1">
+                  <a href="https://github.com/pmoluno" className="btn btn-style-1">
                     Read More
                   </a>
                 </div>
@@ -51,7 +54,7 @@ const Portfolio = () => {
           <div className="snipet container">
             <div className="row">
               <div className="col-md-6">
-                <img src="" alt="" />
+                <img src={imageTwo} alt="" className="slide-img img-fluid"/>
               </div>
               <div className="col-md-6">
                 <div className="description">
@@ -74,7 +77,7 @@ const Portfolio = () => {
                       </span>
                     </li>
                   </ul>
-                  <a href="" className="btn btn-style-1">
+                  <a href="https://github.com/pmoluno" className="btn btn-style-1">
                     Read More
                   </a>
                 </div>
@@ -86,7 +89,7 @@ const Portfolio = () => {
           <div className="snipet container">
             <div className="row">
               <div className="col-md-6">
-                <img src="" alt="" />
+                <img src={imageThree} alt="" className="slide-img img-fluid" />
               </div>
               <div className="col-md-6">
                 <div className="description">
@@ -114,7 +117,7 @@ const Portfolio = () => {
                       </span>
                     </li>
                   </ul>
-                  <a href="" className="btn btn-style-1">
+                  <a href="https://github.com/pmoluno" className="btn btn-style-1">
                     Read More
                   </a>
                 </div>
