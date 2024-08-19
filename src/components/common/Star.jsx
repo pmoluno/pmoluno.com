@@ -6,6 +6,6 @@ export default function Star(){
         bottom: '30px',
     }
     return(
-        <><i class="bi bi-stars" style={iconStyle}></i></>
+        <><i className="bi bi-stars" style={iconStyle}></i></>
     )
 }
