@@ -1,4 +1,5 @@
 import './Footer.css';
+import EmailForm from '../common/EmailForm';
 const Footer = () => {
   const logoStyle ={
     color: '#f47e05',
@@ -13,25 +14,12 @@ const Footer = () => {
               <div className="container">
                 <p className="newsletter-tag pb-0">NEWSLETTER</p>
                 <h2 className="pb-3" id="mail-message">Join My Premium Newsletter</h2>
-                <form className="d-flex" id="subscribe-form">
-                  <input
-                    className="form-control email-input"
-                    type="email"
-                    name="email"
-                  />
-                  <input type="text" name="_honey" className="d-none" />
-                  <button
-                    type="submit"
-                    className="btn ms-2 btn-style-1"
-                  >
-                    Subscribe
-                  </button>
-                </form>
+                <EmailForm/>
               </div>
             </div>
             <div className="col-12 col-md-3 mt-5 bl-1">
               <div className="container d-none d-md-block">
-                <p className="newsletter-icon p-0"><i class="bi bi-envelope"></i></p>
+                <p className="newsletter-icon p-0"><i className="bi bi-envelope"></i></p>
                 <h3 style={{ color: '#ffffff' }} className='p-0'>Email</h3>
                 <p className="small-text">hi@pmoluno.com</p>
               </div>
@@ -50,11 +38,11 @@ const Footer = () => {
             <div className="col-6 col-md-3">
               <h2>Resources</h2>
               <ul className="footer-ul">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="https://medium.com/@pmoluno">Blog</a></li>
               </ul>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 d-none">
               <h2>Legal</h2>
               <ul className="footer-ul">
                 <li><a href="#">Privacy Policy</a></li>
@@ -64,8 +52,8 @@ const Footer = () => {
             <div className="col-6 col-md-3">
               <h2>Social</h2>
               <ul className="footer-ul">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Telegram</a></li>
+                <li><a href="https://www.linkedin.com/in/pureheart-moluno/">LinkedIn</a></li>
+                <li><a href="https://github.com/pmoluno">Github</a></li>
               </ul>
             </div>
           </div>
