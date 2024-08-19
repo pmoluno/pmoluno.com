@@ -28,16 +28,19 @@ const Navigation = () => {
         <Navbar.Collapse id="navbarSupportedContent">
           <Container fluid className="d-lg-flex mt-3 mt-md-0">
             <Nav className="ms-auto">
-            <Nav.Link href="" className="pe-md-3">
+            <Nav.Link href="/" className="pe-md-3">
+                Home
+              </Nav.Link>
+            <Nav.Link href="#about" className="pe-md-3">
                 About
               </Nav.Link>
-              <Nav.Link href="" className="pe-md-3">
+              <Nav.Link href="https://www.linkedin.com/services/page/a8018832a49bb09328/" className="pe-md-3">
                 Services
               </Nav.Link>
-              <Nav.Link href="" className="pe-md-3">
+              <Nav.Link href="#portfolio" className="pe-md-3">
                 Works
               </Nav.Link>
-              <Nav.Link href="" className="pe-md-3">
+              <Nav.Link href="https://www.linkedin.com/services/page/a8018832a49bb09328/" className="pe-md-3">
                 Reviews
               </Nav.Link>
             </Nav>
