@@ -34,7 +34,7 @@ export default function Technologies() {
           {technologies
             .slice(0, showMore ? technologies.length : 12)
             .map((tech, index) => (
-              <div className="col-4  col-md-3 mb-2">
+              <div key={index} className="col-4  col-md-3 mb-2">
                 <div className="glassmorphism">
                   <h2 key={index}>{tech}</h2>
                 </div>
