@@ -15,7 +15,7 @@ const Hero = () => {
         With almost a decade of experience i develop web application that <br />
         clients love, and helps business thrive!
       </p>
-      <button className="btn btn-secondary btn-style-1">Let's Talk</button>
+      <a href="https://www.linkedin.com/in/pureheart-moluno/" className="btn btn-secondary btn-style-1">Let's Talk</a>
     </div>
     {/* <Brands/> */}
     </>
