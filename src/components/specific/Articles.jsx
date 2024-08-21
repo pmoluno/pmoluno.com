@@ -17,11 +17,11 @@ const Articles = () => {
       description: "Imagine a future where a handful of giant companies control the...",
     },
     {
-      title: "Here is why Typescript is a valuable addition to you developer toolkit",
-      date: "June 18",
-      imageUrl: "/images/1.webp",
-      url: "https://medium.com/@pmoluno/here-is-why-typescript-is-a-valuable-addition-to-you-developer-toolkit-5239f4e1a491",
-      description: "TypeScript enhances JavaScript by adding static typing, which has been a game-changer...",
+      title: "The Art of Picking Great Business Names",
+      date: "August 21",
+      imageUrl: "/images/3.webp",
+      url: "https://medium.com/@pmoluno/the-art-of-picking-great-business-names-b13d8dfd9ee5",
+      description: "After coming up with a business idea or plan, it’s time to pick a name for your business...",
     },
   ];
 
