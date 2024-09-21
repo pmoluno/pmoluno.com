@@ -1,0 +1,40 @@
+.privacy h2{
+    font-size: 18px;
+    margin: 16px 0px;
+    color: #191836
+}
+.privacy p{
+    font-size: 14px;
+    color: #19183686;
+    padding-bottom: 16px;
+}
+.privacy a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #712cf9 !important;
+}
+.privacy li{
+    font-size: 14px;
+    color: #191836;
+    list-style: none;
+}
+.privacy li::before {
+    content: "•";
+    color: #712cf9;
+    font-size: 20px;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+}
+.privacy ul{
+    padding-left: 50px !important;
+
+}
+.privacy{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.privacy h1{
+    font-size: 35px;
+    padding-bottom: 12px;
+}

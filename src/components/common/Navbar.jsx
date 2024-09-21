@@ -1,16 +1,16 @@
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import './Navbar.css'
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import Logo from '../../assets/images/logo.png';
+import './Navbar.css';
 
 const Navigation = () => {
-  const logoStyle ={
-    color: '#f47e05',
-    textTransform: 'lowercase',
-  }
   return (
-    <Navbar expand="lg" fixed="top" className="">
+    <div className='container'>
+      <Navbar expand="lg" className="">
       <Container>
-        <Navbar.Brand style={{fontWeight: '700'}}>
-          Pmoluno<span style={logoStyle}>.com</span>
+        <Navbar.Brand as={Link} to="/">
+         <img src={Logo} alt="" />
+          pmoluno<span>.com</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarSupportedContent">
           <span
@@ -26,28 +26,24 @@ const Navigation = () => {
           </span>
         </Navbar.Toggle>
         <Navbar.Collapse id="navbarSupportedContent">
+        <hr className='mobile-hr d-md-none'/>
+
           <Container fluid className="d-lg-flex mt-3 mt-md-0">
             <Nav className="ms-auto">
-            <Nav.Link href="/" className="pe-md-3">
-                Home
+              <Nav.Link as={Link} to="/blog" className="pe-md-3">
+                Blog
               </Nav.Link>
-            <Nav.Link href="#about" className="pe-md-3">
-                About
+              <Nav.Link as={Link} to="/subscribe" className="pe-md-3">
+                Subscribe
               </Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/services/page/a8018832a49bb09328/" className="pe-md-3">
-                Services
-              </Nav.Link>
-              <Nav.Link href="#portfolio" className="pe-md-3">
-                Works
-              </Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/services/page/a8018832a49bb09328/" className="pe-md-3">
-                Reviews
-              </Nav.Link>
+              <a href='https://t.me/Innovate_and_Elevate' target='_blank' rel="noopener noreferrer" className="btn btn-cta">Join us on Telegram!</a>
             </Nav>
           </Container>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
+    
   );
 };
 
