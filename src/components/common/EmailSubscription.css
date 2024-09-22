@@ -29,11 +29,12 @@
 }
 
 .btn-submit {
-    background-color: #712cf9;
+    background-color: #712cf9 !important;
     border-radius: 0px;
     padding: 12px 24px;
-    color: #fff;
+    color: #fff !important;
     font-size: 15px;
+    box-shadow: none !important;
 
 }
 .btn-submit:hover, .btn-submit:active, .btn-submit:focus {
