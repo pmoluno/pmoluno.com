@@ -36,7 +36,7 @@ const Navigation = () => {
               <Nav.Link as={Link} to="/subscribe" className="pe-md-3">
                 Subscribe
               </Nav.Link>
-              <a href='https://t.me/Innovate_and_Elevate' target='_blank' rel="noopener noreferrer" className="btn btn-cta">Join us on Telegram!</a>
+              <a href='https://t.me/+XZb688htjnpkODdh' target='_blank' rel="noopener noreferrer" className="btn btn-cta">Join us on Telegram!</a>
             </Nav>
           </Container>
         </Navbar.Collapse>
